@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="campo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#27466e"/>
+      <stop offset="1" stop-color="#14263f"/>
+    </linearGradient>
+    <linearGradient id="oro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d27a"/>
+      <stop offset="0.5" stop-color="#d4a23a"/>
+      <stop offset="1" stop-color="#9c6d1c"/>
+    </linearGradient>
+    <linearGradient id="hoja" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9edf2"/>
+      <stop offset="0.5" stop-color="#b9c2cc"/>
+      <stop offset="1" stop-color="#7d8896"/>
+    </linearGradient>
+    <linearGradient id="pluma" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fd56a"/>
+      <stop offset="0.55" stop-color="#3fae4b"/>
+      <stop offset="1" stop-color="#1f7136"/>
+    </linearGradient>
+    <linearGradient id="pico" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf1d6"/>
+      <stop offset="1" stop-color="#d9c08c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Espadas cruzadas detrás del escudo: empuñaduras arriba, en las esquinas -->
+  <g transform="rotate(135 128 128)">
+    <path d="M122 -18 L128 -32 L134 -18 L134 246 L122 246 Z" fill="url(#hoja)" stroke="#3b4350" stroke-width="3"/>
+    <path d="M128 -14 L128 240" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2"/>
+    <rect x="100" y="244" width="56" height="11" rx="4" fill="url(#oro)" stroke="#5b3d0e" stroke-width="3"/>
+    <rect x="122" y="255" width="12" height="22" rx="3" fill="#6b3f1f" stroke="#3a210f" stroke-width="3"/>
+    <circle cx="128" cy="284" r="9" fill="url(#oro)" stroke="#5b3d0e" stroke-width="3"/>
+  </g>
+  <g transform="rotate(-135 128 128)">
+    <path d="M122 -18 L128 -32 L134 -18 L134 246 L122 246 Z" fill="url(#hoja)" stroke="#3b4350" stroke-width="3"/>
+    <path d="M128 -14 L128 240" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2"/>
+    <rect x="100" y="244" width="56" height="11" rx="4" fill="url(#oro)" stroke="#5b3d0e" stroke-width="3"/>
+    <rect x="122" y="255" width="12" height="22" rx="3" fill="#6b3f1f" stroke="#3a210f" stroke-width="3"/>
+    <circle cx="128" cy="284" r="9" fill="url(#oro)" stroke="#5b3d0e" stroke-width="3"/>
+  </g>
+
+  <!-- Escudo -->
+  <path d="M40 46 H216 V122 C216 184 178 220 128 242 C78 220 40 184 40 122 Z" fill="url(#oro)" stroke="#4a3309" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M51 56 H205 V122 C205 177 171 208 128 228 C85 208 51 177 51 122 Z" fill="url(#campo)" stroke="#0c1726" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M59 64 H197 V122 C197 172 166 200 128 218 C90 200 59 172 59 122 Z" fill="none" stroke="#d4a23a" stroke-opacity="0.55" stroke-width="2"/>
+
+  <!-- Don Paco Perico: cabeza de perfil, mirando a la izquierda -->
+  <g transform="translate(-16 -12) scale(1.12)">
+  <g stroke="#123d1f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cuello y cabeza -->
+    <path d="M118 92 C140 72 178 80 182 116 C185 140 176 158 168 172 C163 182 160 192 160 204 L132 210 C134 192 132 178 126 168 C116 152 104 140 104 120 C104 106 109 98 118 92 Z" fill="url(#pluma)"/>
+    <!-- pico: mandíbula de arriba en gancho y la de abajo -->
+    <path d="M112 102 C88 96 66 110 64 134 C63 147 70 157 81 159 C77 148 80 138 90 135 C98 132 106 134 113 139 Z" fill="url(#pico)"/>
+    <path d="M113 139 C104 142 96 148 95 156 C103 161 114 158 121 150 Z" fill="#5a5148"/>
+  </g>
+  <!-- frente amarilla y mejilla roja -->
+  <path d="M120 96 C130 88 146 86 156 90 C148 92 136 96 128 104 Z" fill="#f2cf3a"/>
+  <ellipse cx="146" cy="136" rx="13" ry="9" fill="#e2503a" opacity="0.9"/>
+  <!-- ojo -->
+  <circle cx="132" cy="116" r="12" fill="#fffaf0" stroke="#123d1f" stroke-width="3.5"/>
+  <circle cx="129" cy="116" r="6" fill="#1b1b1b"/>
+  <circle cx="127" cy="113.5" r="2" fill="#ffffff"/>
+  <!-- plumas del cuello -->
+  <path d="M150 160 C156 168 158 178 156 190" fill="none" stroke="#1f7136" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M164 150 C170 158 172 168 170 178" fill="none" stroke="#1f7136" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Corona -->
+  <g stroke="#4a3309" stroke-width="4" stroke-linejoin="round">
+    <path d="M100 46 L103 20 L115 33 L128 11 L141 33 L153 20 L156 46 Z" fill="url(#oro)"/>
+    <rect x="97" y="40" width="62" height="11" rx="3" fill="url(#oro)"/>
+  </g>
+  <circle cx="103" cy="19" r="4.5" fill="#f3d27a" stroke="#4a3309" stroke-width="3"/>
+  <circle cx="128" cy="10" r="5" fill="#f3d27a" stroke="#4a3309" stroke-width="3"/>
+  <circle cx="153" cy="19" r="4.5" fill="#f3d27a" stroke="#4a3309" stroke-width="3"/>
+  <circle cx="128" cy="45.5" r="3.6" fill="#c73a2e" stroke="#4a1410" stroke-width="2"/>
+  <circle cx="111" cy="45.5" r="2.8" fill="#2f7fc4" stroke="#0f2c46" stroke-width="1.5"/>
+  <circle cx="145" cy="45.5" r="2.8" fill="#2f7fc4" stroke="#0f2c46" stroke-width="1.5"/>
+</svg>
